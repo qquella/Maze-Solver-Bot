@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.deb
+*.rpm
+*.exe
+
+# PyInstaller
+#  Usually these files are built in a _MEIPASS folder, but if you use the --onefile option,
+#  they will be concatenated in a single exe file.
+_MEIPASS/
+_MEI*
+# poetry
+poetry.lock
+
+# Environments
+.venv
+venv/
+maze/
+env/
+ENV/
+*.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.log
+*.rpt
+*.junit
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.db
+*.sqlite3
+
+# Flask stuff:
+instance/
+*.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.sock
+
+# Ruff
+.ruff_cache/
