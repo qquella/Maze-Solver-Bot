@@ -5,6 +5,7 @@ from point import Line
 
 class Window:
     def __init__(self, width, height):
+        print("A new window is being initialized!")
         self.__root = Tk()
         self.__root.title("Maze Solver")
         self.__root.protocol("WM_DELETE_WINDOW", self.close)
@@ -19,6 +20,7 @@ class Window:
         print("window closed")
 
     def redraw(self):
+        print("redrawing the window")
         self.__root.update_idletasks()
         self.__root.update()
 
