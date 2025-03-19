@@ -1,3 +1,5 @@
+from enum import Flag
+
 from graphics import Window
 from point import Line, Point
 
@@ -17,6 +19,7 @@ class Cell:
         self._y1 = None
         self._y2 = None
         self._win = win
+        self.visited = False
 
     def draw(self, x1, y1, x2, y2):
         if self._win is None:
